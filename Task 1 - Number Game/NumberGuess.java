@@ -11,7 +11,7 @@ public class NumberGuess{
             int leastBound = 1;
             int highBound = 100;
             int randNumber = rand.nextInt(highBound - leastBound +1)+leastBound;
-            int remainAttempts = 6;
+            int remainAttempts = 7;
             System.out.println("Picked a secret number b/w  between " + leastBound + " and " + highBound + ".");
             System.out.println("You have " + remainAttempts + " chances to crack!");
             boolean correctGuess = false;
@@ -29,7 +29,7 @@ public class NumberGuess{
                     correctGuess = true;
                     roundsWon++;
                     System.out.println("YOU NAILED IT!!");
-                    System.out.println("Attempts taken:" + (6-remainAttempts));
+                    System.out.println("Attempts taken:" + (7-remainAttempts));
                     break;
                 }
                 if(remainAttempts>0){
