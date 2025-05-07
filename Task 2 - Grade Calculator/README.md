@@ -28,7 +28,7 @@ In this project, I developed a simple **Grade Calculator** that allows users to 
 ## 📹 Execution Demo
 
 You can view the execution video of this project here:  
-**[▶️ Task 2 Execution Video](./task2-demo.mp4)**
+**[▶️ Task 2 Execution Video](TASK2-GradeCalculator.mp4)**
 
 ---
 
